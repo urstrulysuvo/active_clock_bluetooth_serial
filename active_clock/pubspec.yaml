@@ -1,0 +1,41 @@
+name: active_clock
+version: 0.4.0
+description: Demonstrates how to use the `flutter_bluetooth_serial` plugin.
+homepage: https://github.com/edufolly/flutter_bluetooth_serial/tree/master/example/
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  scoped_model: ^2.0.0-nullsafety.0
+  cupertino_icons: ^1.0.3
+  simple_animations: ^5.0.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_bluetooth_serial:
+    path: ../
+  integration_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.11.0"
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo.png"
+
+flutter_launcher_name:
+  name: "Active Clock"
+flutter:
+  uses-material-design: true  
+  assets:
+    - images/clock.png
+    - images/logo.png
+
